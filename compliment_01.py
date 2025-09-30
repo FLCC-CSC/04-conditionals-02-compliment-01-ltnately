@@ -1,28 +1,20 @@
 # FILE NAME - compliment_01.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
-
-
-
-# 1. Make sure you fill out the comments above
-# 2. Write your code in the proper spot
-# 3. Be sure to answer the Reflection Questions and Attestation below
-# 4. The Sample Output has been included in this code for your convenience
-
-
+# NAME: Michael Glazier
+# DATE: 09/30/2025
+# BRIEF DESCRIPTION:  compliment only on yes
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
-
-
-
-
-
-
-
-
+def main ():
+    compliment = input("Would you like a compliment? ")
+    
+    if compliment == 'yes':
+        print("You have wonderful eyes.")
+    
+    print("Thank you for playing.")
+        
+main()
 
 ########### END YER CODE ABOVE THIS LINE ###########
 
@@ -67,11 +59,12 @@ Thank you for playing.
 
 1. On a scale of 1 to 10 (where 10 is the hardest), how would you rate this lab?
 
-
+3
 
 
 2. What was the hardest part of this lab?
 
+formatting on the input had an unexpected space
 
 
 
